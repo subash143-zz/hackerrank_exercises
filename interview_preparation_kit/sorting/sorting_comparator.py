@@ -19,8 +19,9 @@ class Player:
             if a.name[i] > b.name[i]:
               return 1
             elif(a.name[i] < b.name[i]):
-              return -1;
+              return -1
             i = i + 1
         
           return 1 if len(a.name) > len(b.name) else -1
+          
 n = int(input())
